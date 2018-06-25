@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MVPCalculatorRX</string>
+    <string name="plus">+</string>
+    <string name="rest">-</string>
+    <string name="multiply">*</string>
+    <string name="division">/</string>
+    <string name="result">RESULT</string>
+    <string name="zero">0</string>
+    <string name="equals">=</string>
 </resources>

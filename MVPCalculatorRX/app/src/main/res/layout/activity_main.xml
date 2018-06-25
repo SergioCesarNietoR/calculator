@@ -4,6 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/val_one_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/zero" />
+
+    <EditText
+        android:id="@+id/val_two_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/zero" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/plus_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/rest_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rest" />
+
+        <Button
+            android:id="@+id/multiply_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multiply" />
+
+        <Button
+            android:id="@+id/division_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/division" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/equals_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/equals" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/result" />
+
+    <TextView
+        android:id="@+id/result_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/zero"
+        android:textSize="@dimen/result_size" />
 
 </LinearLayout>
